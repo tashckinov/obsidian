@@ -1,2 +1,5 @@
 .obsidian
 .idea
+site/
+.venv/
+__pycache__/
