@@ -1,0 +1,44 @@
+site_name: English Study
+site_description: Личный план изучения английского
+site_url: https://tashckinov.github.io/obsidian/
+
+docs_dir: Английский
+site_dir: site
+
+repo_url: https://github.com/tashckinov/obsidian
+repo_name: tashckinov/obsidian
+edit_uri: edit/master/Английский/
+
+nav:
+  - Главная: index.md
+  - План тем: 01 — План тем.md
+  - Промпты для изучения: 02 — Промпты для изучения.md
+  - Повторяющиеся ошибки: 03 — Повторяющиеся ошибки.md
+  - Письменная практика: 04 — Письменная практика.md
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+
+plugins:
+  - search:
+      lang:
+        - ru
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+exclude_docs: |
+  00 — Английский.md
